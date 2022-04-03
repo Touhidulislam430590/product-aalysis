@@ -1,0 +1,38 @@
+[
+    {
+        "id" : 1,
+        "name" : "Adam Child",
+        "comment" : "When KTM held the world launch for its big 1290 Super Adventure R back in 2017, journalists were whisked away to Peru",
+        "rating" : 5
+    },
+    {
+        "id" : 2,
+        "name" : "Jason Critchell",
+        "comment" : "On-road the Super Adventure R is connected to the road despite the long-travel suspension and 21-inch front tire.",
+        "rating" : 5
+    },
+    {
+        "id" : 3,
+        "name" : "Johnson Omega",
+        "comment" : "Although the Super Adventure R lost some torque, you’d be hard-pressed to notice.",
+        "rating" : 4.5
+    },
+    {
+        "id" : 4,
+        "name" : "Jason",
+        "comment" : "KTM claims the 1290 Super Adventure R has retained its peak horsepower rating of 160 hp.",
+        "rating" : 4.8
+    },
+    {
+        "id" : 5,
+        "name" : "Ping Pong Antony",
+        "comment" : "Off-road mode knocks the power down from 160hp to 100 hp, making it easier to control in the dirt.",
+        "rating" : 5
+    },
+    {
+        "id" : 6,
+        "name" : "Pricilla Andersen",
+        "comment" : "A 7-inch TFT full color display is bright and easy to read.",
+        "rating" : 4
+    }
+]

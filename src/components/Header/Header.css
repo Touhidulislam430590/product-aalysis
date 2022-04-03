@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    background-color: cadetblue;
+}
+
+.header-container{
+    height: 50px;
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-container nav a{
+    text-decoration: none;
+    margin-right: 10px;
+    color: #ffffff;
+}
+
+.site-title{
+    color: #ffffff;
+}
+
+.site-title .bike{
+    color: orange;
+}
+
+.header-container nav a:hover{
+    color: orange;
+}
+
