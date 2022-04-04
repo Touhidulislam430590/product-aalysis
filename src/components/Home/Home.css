@@ -1,0 +1,25 @@
+.home-container{
+    background-color:darksalmon;
+}
+.banner{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.banner-content h2{
+    font-size: 44px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.banner-content p{
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.home-cart{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 50px;
+}
