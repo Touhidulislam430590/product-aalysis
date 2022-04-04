@@ -25,3 +25,16 @@
     margin: 50px auto;
     width: 90%;
 }
+
+.see-more-btn{
+    margin-bottom: 50px;
+    padding: 10px 15px;
+    background-color: blueviolet;
+    border-radius: 5px;
+    color: #ffffff;
+    font-size: 16px;
+}
+.see-more-btn:hover{
+    background-color: cadetblue;
+    cursor: pointer;
+}

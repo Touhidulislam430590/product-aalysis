@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import Cart from '../Cart/Cart';
 import useReview from '../hooks/useReview';
 import './Home.css';
@@ -29,6 +30,10 @@ const Home = () => {
                     reviewCart.map( view=><Cart key={view.id} view={view}></Cart> )
                 }
 
+            </div>
+
+            <div>
+                <Link to="/reviews"> <button className='see-more-btn'>See More Reviews</button> </Link>
             </div>
 
 
