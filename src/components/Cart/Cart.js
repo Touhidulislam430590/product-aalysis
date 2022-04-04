@@ -1,5 +1,7 @@
 import React from 'react';
 import './Cart.css';
+import { AiFillStar } from 'react-icons/ai';
+
 
 const Cart = ({view}) => {
 
@@ -7,10 +9,10 @@ const Cart = ({view}) => {
 
     // console.log(name, comment, rating);
     return (
-        <div>
-            <h2>Name: {name}</h2>
-            <p>Comment: {comment}</p>
-            <h4>Rating: {rating}</h4>
+        <div className='cart-item'>
+            <q>{comment}</q>
+            <h3>{name}</h3>
+            <h4>Rating: <AiFillStar></AiFillStar> {rating}</h4>
         </div>
     );
 };
